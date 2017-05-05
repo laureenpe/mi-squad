@@ -7,16 +7,22 @@
     <meta charset="UTF-8">
 </head>
 
-<body>
-
-    <img src="images/logo_laboratoria.png" alt="photo" width="50px" height="50px">
+<body onload="inicializar()">
+    <!--Se debe hacer dinamicamente teniendo en cuenta que desconocemos cuantos usuarios del team son, para esto
+puedo crear una seccion con un id contenedor que voy a llamar en el javascript -->
     <header>
-        <section>
-            <h1 align="center" style="color: deeppink;">Compañeras de Squad</h1>
-            <p align="center" style="color: deeppink;">Somos el equipo THE RAMONAS </p>
-        </section>
-
+        <div> <img src="images/logo_laboratoria.png" alt="logotipo" width="70px"> </div>
+        <h1 align="center" style="color: deeppink;">Compañeras de Squad</h1>
+        <p align="center" style="color: deeppink;"> THE RAMONAS </p>
     </header>
+    <section id="contenedor" align="left" style="color: brown;" class "main">
+        <!--creo una seccion contenedor vacía para empezar a meterle cosas -->
+
+    </section>
+    <footer>
+        <p align="center" style="color: deeppink;">Made by Laura Peláez</p>
+    </footer>
+    <script src="assets/javascript/javascript.js"></script>
 
 </body>
 
