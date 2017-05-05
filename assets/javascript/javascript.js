@@ -27,9 +27,9 @@ function inicializar() {
         html += "<section><strong>Nombre: </strong>" + //+= para que concatene las cosas y me muestre todo
             teamMates[i].nombre + "</br>" + " <strong> Apellido: </strong>" +
             teamMates[i].apellido + "</br>" + "<strong> edad: </strong>" +
-            teamMates[i].edad;
+            teamMates[i].edad + "</br>"
 
-        html += "<ul>"; // porque necesito crear un  ul q me meta los li
+        html += "<strong> hobbies : </strong>" + "<ul>"; // porque necesito crear un  ul q me meta los li
 
         for (var j = 0; j < teamMates[i].hobbies.length; j++) { //como hobbies es un array de varias cosas, necesito recorrerlo para buscar el hobbie
             html += "<li>" + teamMates[i].hobbies[j] + "</li>";
